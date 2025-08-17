@@ -20,7 +20,7 @@ Whether you want to organize photos, clean up messy filenames, or apply consiste
 ## 🛠️ How to Use
 
 1. Edit the script and set your desired options in the **Configuration** section:
-   ```python
+   
    FOLDER_PATH = "SampleFiles"      # Folder containing files to rename
    PREVIEW_MODE = True              # False = actually rename, True = dry-run
    ADD_PREFIX = "IMG_"
@@ -29,14 +29,12 @@ Whether you want to organize photos, clean up messy filenames, or apply consiste
    REPLACE_TO = ""
    ADD_DATE = True
    FILENAME_CASE = "lower"          # Options: "lower", "upper", or None
-   ```
+   
 
 2. Place your target files in the specified folder.
 
 3. Run the script:
-   ```bash
    python bulk_renamer.py
-   ```
 
 4. Check the terminal output and `rename_log.csv` for preview or confirmation.
 
@@ -45,16 +43,14 @@ Whether you want to organize photos, clean up messy filenames, or apply consiste
 ## 📁 Example
 
 **Before:**
-```
 holiday_photo_copy.JPG
 document_copy.txt
-```
 
 **After:**
-```
+
 2025-08-07_img_holiday_photo_edited.jpg
 2025-08-07_img_document_edited.txt
-```
+
 
 ---
 
@@ -62,9 +58,7 @@ document_copy.txt
 
 To safely test changes before renaming files, set:
 
-```python
 PREVIEW_MODE = True
-```
 
 No files will be renamed — only `rename_log.csv` will be created to show what *would* happen.
 
@@ -79,10 +73,9 @@ This script is ideal for:
 
 ---
 
-## 📄 License
-
-MIT License – Free to use, modify, and distribute.
-
+📜 **License**: All Rights Reserved © 2025 ThomasKaen  
+This project is for personal/portfolio use only.  
+For commercial use or custom solutions, please contact me via [Fiverr](https://www.fiverr.com/thomas_kaen).
 ---
 
 **Need a visual interface (GUI) instead of a script?**
